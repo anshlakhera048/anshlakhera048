@@ -6,14 +6,14 @@ I am passionate about leveraging technology to solve real-world problems through
 
 I am curious about:
 
---AI and Machine Learning (including practical applications like itinerary planning)
--Web Development (React, TailwindCSS, Firebase)
--Data Structures and Algorithms (competitive programming and problem-solving)
--Backend Technologies (Node.js, Express.js, MongoDB)
--Cloud Platforms (Google Firebase and Vercel)
--Data Analytics and Visualization
--Enhancing User Experience and Scalable Web Solutions
--And much more...
+- AI and Machine Learning (including practical applications like itinerary planning)
+- Web Development (React, TailwindCSS, Firebase)
+- Data Structures and Algorithms (competitive programming and problem-solving)
+- Backend Technologies (Node.js, Express.js, MongoDB)
+- Cloud Platforms (Google Firebase and Vercel)
+- Data Analytics and Visualization
+- Enhancing User Experience and Scalable Web Solutions
+- And much more...
 
 Every day, I seek opportunities to explore new tools, tackle challenges, and refine my skills.
 
