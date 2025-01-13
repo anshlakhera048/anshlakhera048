@@ -1,18 +1,20 @@
 ### Hi there 👋, welcome to My profile.
 
-I am ***Ansh lakhera***, I am a Learner and Tech Enthusiast. to code in Python and currently providing services as a Freelancer !
+I am ***Ansh lakhera***, I am a Learner and Tech Enthusiast.
 
-I love machine learning, deep learning and computer vision . I learn new things and explore my interests everyday. 
+I am passionate about leveraging technology to solve real-world problems through innovative projects. I thrive on building solutions that integrate AI, web development, and data analytics, always eager to learn and grow along the way.
 
-I am Curious about: 
-- Machine Learning and Deep Learning 
-- Computer Vision 
-- Google Cloud  
-- Azure
-- Web Scraping
-- Data Analytics
-- SQL
-- and much more....
+I am curious about:
+
+AI and Machine Learning (including practical applications like itinerary planning)
+Web Development (React, TailwindCSS, Firebase)
+Data Structures and Algorithms (competitive programming and problem-solving)
+Backend Technologies (Node.js, Express.js, MongoDB)
+Cloud Platforms (Google Firebase and Vercel)
+Data Analytics and Visualization
+Enhancing User Experience and Scalable Web Solutions
+And much more...
+Every day, I seek opportunities to explore new tools, tackle challenges, and refine my skills.
 
 ***Want to hire me for your next project. Lets connect.***
 You can email me as well here ***lakheraansh4@gmail.com***.
