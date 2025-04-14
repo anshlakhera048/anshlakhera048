@@ -18,7 +18,7 @@ I am curious about:
 Every day, I seek opportunities to explore new tools, tackle challenges, and refine my skills.
 
 ***Want to hire me for your next project. Lets connect.***
-You can email me as well here ***lakheraansh4@gmail.com***.
+You can email me as well here ***anshlakhera048@gmail.com***.
 <img src="https://komarev.com/ghpvc/?username=dhanishahahaha" alt="profile counter badge" />
 ### Connect with me
 
