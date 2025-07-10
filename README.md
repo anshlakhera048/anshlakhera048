@@ -12,7 +12,7 @@
 - 🎓 B.Tech EE 26' student @ [Nirma University](https://nirmauni.ac.in)  
 - 🔍 Exploring Backend Development with Node.js, Express, and databases like MongoDB & MySQL  
 - 💻 Passionate about building scalable systems and solving real-world problems through code  
-- 🧑‍🏫 Vice President @ Computer Society of India, Nirma University  
+- 🧑‍🏫 Head of Graphics @ Electrical Engineering Student Association, Nirma University  
 - 🏆 Competitive Programmer — active on LeetCode, Codeforces, and CodeChef  
 
 ---
