@@ -13,7 +13,7 @@
 
 ## 👨‍💼 About Me
 
-- 🎓 Final-year **B.Tech EE'26** with **Minor in Software Engineering** @ [Nirma University](https://nirmauni.ac.in)  
+- 🎓 Final-year **B.Tech** with **Minor in Software Engineering** @ [Nirma University](https://nirmauni.ac.in)  
 - 🚀 Experienced in **Full-Stack Development**: React, Node.js, Express.js, ASP.NET, MongoDB, MySQL, PostgreSQL  
 - 🛠️ Built projects like **WanderAI**, **E-Commerce Website**, **Sudoku Solver**, and **Currency Converter**
 - 💼 **SDE Intern @ TripFactory, Bangalore** – Working on backend systems, Java-based services, and production-grade code  
@@ -69,12 +69,24 @@
 
 ---
 
-## 📊 GitHub Stats
+## 🚀 Featured Projects (Production-Focused)
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=anshlakhera048&show_icons=true&theme=radical&hide_border=true" height="180px" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anshlakhera048&layout=compact&theme=radical&hide_border=true" height="180px" />
-</p>
+- **EduWave – Microservices-Based Student Course Management System**  
+  Node.js, Express, MongoDB, Docker, JWT, React  
+  → Designed modular microservices, Dockerized services, implemented auth & role-based access  
+
+- **WanderAI – AI-Powered Travel Itinerary Generator**  
+  Python, ML APIs, Backend APIs  
+  → Built backend logic for itinerary generation and data processing  
+
+- **E-Commerce Backend System**  
+  Node.js, Express, MongoDB  
+  → Implemented cart, orders, authentication, and RESTful APIs  
+
+- **Sudoku Solver**  
+  C++  
+  → Constraint-based backtracking with optimized recursion
+
 
 ---
 
