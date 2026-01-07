@@ -1,5 +1,5 @@
 <h1 align="center">🌟 Hey there! I'm <a href="https://www.linkedin.com/in/ansh-lakhera/" target="_blank">Ansh Lakhera</a></h1>
-<h3 align="center">⚡ Competitive Programmer | 💻 Aspiring SDE | 🌍 Tech Explorer from Rajasthan, India</h3>
+<h3 align="center">⚡ Competitive Programmer | 💻 SDE | 🌍 Tech Explorer from Rajasthan, India</h3>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=58A6FF&center=true&vCenter=true&width=550&lines=Always+learning+and+building+%F0%9F%9A%80;Backend+%26+Fullstack+Developer+in+progress...;DSA+%7C+CP+%7C+Scalable+Systems+Design" alt="Typing SVG" />
@@ -15,8 +15,9 @@
 
 - 🎓 Final-year **B.Tech EE'26** with **Minor in Software Engineering** @ [Nirma University](https://nirmauni.ac.in)  
 - 🚀 Experienced in **Full-Stack Development**: React, Node.js, Express.js, ASP.NET, MongoDB, MySQL, PostgreSQL  
-- 🛠️ Built projects like **WanderAI**, **E-Commerce Website**, **Sudoku Solver**, and **Currency Converter**  
-- 💼 **SDE Intern @ Bluestock Fintech** – worked on IPO app using React, Node, Tailwind, WebSockets & Docker  
+- 🛠️ Built projects like **WanderAI**, **E-Commerce Website**, **Sudoku Solver**, and **Currency Converter**
+- 💼 **SDE Intern @ TripFactory, Bangalore** – Working on backend systems, Java-based services, and production-grade code  
+- 💼 **Former SDE Intern @ Bluestock Fintech** – Worked on IPO app using React, Node, Tailwind, WebSockets & Docker  
 - 🎨 **Head of Graphics, EESA** – Led a 10-member team, streamlining workflows & boosting efficiency  
 - 🏆 **300+ DSA problems solved** across LeetCode, Codeforces, CodeChef, HackerRank  
 
