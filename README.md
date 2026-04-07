@@ -69,25 +69,40 @@
 
 ---
 
-## 🚀 Featured Projects (Production-Focused)
+## 🚀 Featured Projects
 
-- **EduWave – Microservices-Based Student Course Management System**  
-  Node.js, Express, MongoDB, Docker, JWT, React  
-  → Designed modular microservices, Dockerized services, implemented auth & role-based access  
+### **Distributed Payment Infrastructure**
+*Spring Boot, Kafka, PostgreSQL, Redis, Docker, Prometheus, Grafana*  
+- Designed event-driven payment system using Kafka (partitioned topics, consumer groups) for scalable processing  
+- Implemented double-entry ledger with optimistic locking to prevent race conditions and double-spending  
+- Built idempotent APIs and Kafka consumers using Redis-based deduplication for exactly-once semantics  
+- Engineered fault-tolerant workflows using Saga pattern, retries, DLQs, and circuit breakers  
+- Integrated fraud detection (rules + ML) and system observability with Prometheus and Grafana  
 
-- **WanderAI – AI-Powered Travel Itinerary Generator**  
-  Python, ML APIs, Backend APIs  
-  → Built backend logic for itinerary generation and data processing  
+---
 
-- **E-Commerce Backend System**  
-  Node.js, Express, MongoDB  
-  → Implemented cart, orders, authentication, and RESTful APIs  
+### **AgentHub – Multi-Agent AI System**
+*Spring Boot, Ollama, Redis, ChromaDB, Docker Compose*  
+- Architected modular multi-agent system with pluggable agents (planning, RAG, tools) via interface-driven design  
+- Built DAG-based orchestration engine using CompletableFuture for parallel, dependency-aware execution  
+- Implemented RAG pipeline using vector embeddings (ChromaDB) to improve response grounding  
+- Designed stateful execution layer using Redis for memory persistence and failure recovery  
 
-- **Sudoku Solver**  
-  C++  
-  → Constraint-based backtracking with optimized recursion
+---
 
+### **WanderAI – AI Travel Planner (Live)**
+*React, Firebase, REST APIs, Gemini AI, Vercel*  
+- Developed AI-based itinerary generation using LLM APIs with real-time user preference processing  
+- Designed scalable frontend-backend interaction using REST APIs and Firebase for real-time data sync  
+- Implemented OAuth-based authentication and deployed on Vercel with production-grade routing  
 
+---
+
+### **Customer Churn Prediction Pipeline**
+*Python, Scikit-learn, Google Cloud Storage, Power BI*  
+- Built end-to-end ML pipeline including feature engineering, model training, and evaluation  
+- Improved recall on imbalanced data using SMOTE-ENN  
+- Integrated predictions with GCP storage and built Power BI dashboards for churn insights  
 ---
 
 ## 🌐 Connect With Me
