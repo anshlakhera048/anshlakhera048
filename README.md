@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1f2e,100:58A6FF&height=200&section=header&text=Ansh%20Lakhera&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Backend%20Engineer%20%C2%B7%20Distributed%20Systems%20%C2%B7%20Exchange%20Engines&descAlignY=58&descSize=18&descColor=8b949e" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1f2e,100:A371F7&height=200&section=header&text=Ansh%20Lakhera&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Backend%20Engineer%20%C2%B7%20Distributed%20Systems%20%C2%B7%20Exchange%20Engines&descAlignY=58&descSize=18&descColor=8b949e" />
 </div>
 
 <div align="center">
@@ -9,7 +9,7 @@
 [![GitHub](https://img.shields.io/badge/GitHub-161B22?style=for-the-badge&logo=github&logoColor=white)](https://github.com/anshlakhera048)
 [![Instagram](https://img.shields.io/badge/@swe.ngineer-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/swe.ngineer)
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&pause=1200&color=58A6FF&center=true&vCenter=true&width=620&height=40&lines=480K+ops%2Fsec+lock-free+exchange+engine+%E2%9A%A1;Kafka+%E2%86%92+Flink+%E2%86%92+ClickHouse+streaming+pipelines;Distributed+payments+%C2%B7+Idempotency+%C2%B7+Saga+workflows;Top+3.3%25+globally+on+LeetCode+%F0%9F%8F%86;35K%2B+views%2Fmo+%40swe.ngineer" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&pause=1200&color=A371F7&center=true&vCenter=true&width=620&height=40&lines=480K+ops%2Fsec+lock-free+exchange+engine+%E2%9A%A1;Kafka+%E2%86%92+Flink+%E2%86%92+ClickHouse+streaming+pipelines;Distributed+payments+%C2%B7+Idempotency+%C2%B7+Saga+workflows;Top+3.3%25+globally+on+LeetCode+%F0%9F%8F%86;35K%2B+views%2Fmo+%40swe.ngineer" />
 
 </div>
 
@@ -146,19 +146,19 @@ Creating system design, backend engineering, and AI content for engineers — di
 ## 📊 Stats
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=anshlakhera048&theme=github-dark-blue&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF&sideLabels=8b949e&dates=8b949e" height="160"/>
+  <img src="https://streak-stats.demolab.com?user=anshlakhera048&theme=tokyonight-duo&hide_border=true&background=0D1117&ring=A371F7&fire=C084FC&currStreakLabel=A371F7&sideLabels=8b949e&dates=8b949e" height="160"/>
 </div>
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=anshlakhera048&theme=github_dark" width="95%"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=anshlakhera048&theme=2077" width="95%"/>
 </div>
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=anshlakhera048&theme=github_dark" height="150"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=anshlakhera048&theme=2077" height="150"/>
   &nbsp;
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=anshlakhera048&theme=github_dark" height="150"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=anshlakhera048&theme=2077" height="150"/>
   &nbsp;
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=anshlakhera048&theme=github_dark" height="150"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=anshlakhera048&theme=2077" height="150"/>
 </div>
 
 ---
@@ -193,5 +193,5 @@ Then replace this comment with:
 -->
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:58A6FF,100:0d1117&height=100&section=footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:A371F7,100:0d1117&height=100&section=footer" />
 </div>
