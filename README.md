@@ -135,8 +135,8 @@ Creating system design, backend engineering, and AI content for engineers — di
 
 | | Platform | Handle | Highlight |
 |---|---|---|---|
-| 🟡 | **LeetCode** | `lakheraansh` | **Top 3.3% globally** · Rank 1011 / 30,750+ · Biweekly 148 · Max 1630 |
-| 🔵 | **CodeChef** | `anshlakhera048` | **Global Rank 617** · Starters 190 · Max 1434 |
+| 🟡 | **LeetCode** | `lakheraansh` | **Top 3.3% globally** · Rank 1011 / 30,750+ · Biweekly 148 · Max 1648 |
+| 🔵 | **CodeChef** | `anshlakhera048` | **3 Star** · **Global Rank 56** · Starters 251 · Max 1601 |
 | 🔴 | **Codeforces** | `ansh174` | Active · Graphs · DP · System-level problems |
 
 </div>
