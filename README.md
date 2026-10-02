@@ -9,9 +9,50 @@
 [![GitHub](https://img.shields.io/badge/GitHub-161B22?style=for-the-badge&logo=github&logoColor=white)](https://github.com/anshlakhera048)
 [![Instagram](https://img.shields.io/badge/@swe.ngineer-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/swe.ngineer)
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&pause=1200&color=A371F7&center=true&vCenter=true&width=620&height=40&lines=480K+ops%2Fsec+lock-free+exchange+engine+%E2%9A%A1;Kafka+%E2%86%92+Flink+%E2%86%92+ClickHouse+streaming+pipelines;Distributed+payments+%C2%B7+Idempotency+%C2%B7+Saga+workflows;Top+3.3%25+globally+on+LeetCode+%F0%9F%8F%86;35K%2B+views%2Fmo+%40swe.ngineer" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&pause=1200&color=A371F7&center=true&vCenter=true&width=620&height=40&lines=Open+source+contributor+%F0%9F%8C%B1;480K+ops%2Fsec+lock-free+exchange+engine+%E2%9A%A1;Kafka+%E2%86%92+Flink+%E2%86%92+ClickHouse+streaming+pipelines;Distributed+payments+%C2%B7+Idempotency+%C2%B7+Saga+workflows;Top+3.3%25+globally+on+LeetCode+%F0%9F%8F%86;35K%2B+views%2Fmo+%40swe.ngineer" />
+
+<br/>
+
+[**🌱 Open Source**](#-open-source-contributions) · [**🚀 Projects**](#-projects) · [**🛠️ Stack**](#️-tech-stack) · [**🏆 CP**](#-competitive-programming) · [**📊 Stats**](#-stats)
 
 </div>
+
+---
+
+## 🌱 Open Source Contributions
+
+<div align="center">
+
+[![Merged PRs](https://img.shields.io/github/issues-search?query=is%3Apr%20is%3Amerged%20author%3Aanshlakhera048%20-user%3Aanshlakhera048&label=Merged%20PRs&color=A371F7&style=for-the-badge&logo=git&logoColor=white)](https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3Aanshlakhera048+-user%3Aanshlakhera048)
+[![Open PRs](https://img.shields.io/github/issues-search?query=is%3Apr%20is%3Aopen%20author%3Aanshlakhera048%20-user%3Aanshlakhera048&label=Open%20PRs&color=238636&style=for-the-badge&logo=github&logoColor=white)](https://github.com/pulls?q=is%3Apr+is%3Aopen+author%3Aanshlakhera048+-user%3Aanshlakhera048)
+[![Issues Reported](https://img.shields.io/github/issues-search?query=is%3Aissue%20author%3Aanshlakhera048%20-user%3Aanshlakhera048&label=Issues%20Opened&color=D29922&style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/issues?q=is%3Aissue+author%3Aanshlakhera048+-user%3Aanshlakhera048)
+
+</div>
+
+> Recently started contributing to open source, focused on backend, systems and streaming projects. Live feed of my latest merged PRs below, updated automatically.
+
+### ✅ Latest merged pull requests
+
+<!--OSS-START-->
+| Project | Contribution | Merged |
+|---|---|---|
+| _First merged PRs show up here after the workflow runs_ | | |
+<!--OSS-END-->
+
+<div align="center">
+
+[**View all my PRs →**](https://github.com/pulls?q=is%3Apr+author%3Aanshlakhera048+-user%3Aanshlakhera048)
+
+</div>
+
+<!--
+OPTIONAL: pin cards for repos you contribute to. Uncomment and edit:
+
+<div align="center">
+  <a href="https://github.com/OWNER/REPO"><img src="https://github-readme-stats.vercel.app/api/pin/?username=OWNER&repo=REPO&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A371F7&icon_color=A371F7" /></a>
+  <a href="https://github.com/OWNER/REPO2"><img src="https://github-readme-stats.vercel.app/api/pin/?username=OWNER&repo=REPO2&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A371F7&icon_color=A371F7" /></a>
+</div>
+-->
 
 ---
 
@@ -23,6 +64,8 @@ class AnshLakhera {
         "QuantStream — Kafka → Flink → ClickHouse market data pipeline",
         "Distributed Payment Infra — Saga, outbox, idempotency, fraud detection"
     };
+
+    String openSource = "Contributing upstream — see merged PRs above";
 
     String[] focusAreas = {
         "Exchange / Matching Engines",  "Stream Processing (Flink)",
@@ -162,35 +205,6 @@ Creating system design, backend engineering, and AI content for engineers — di
 </div>
 
 ---
-
-<!-- Snake animation: add .github/workflows/snake.yml to generate this -->
-<!--
-To enable the snake, create .github/workflows/snake.yml in this repo with:
-
-name: Generate Snake
-on:
-  schedule: [{cron: "0 0 * * *"}]
-  workflow_dispatch:
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-Then replace this comment with:
-<img src="https://github.com/anshlakhera048/anshlakhera048/raw/output/github-contribution-grid-snake-dark.svg" />
--->
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:A371F7,100:0d1117&height=100&section=footer" />
