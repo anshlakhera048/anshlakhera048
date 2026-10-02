@@ -36,7 +36,7 @@
 <!--OSS-START-->
 | Project | Contribution | Merged |
 |---|---|---|
-| _First merged PRs show up here after the workflow runs_ | | |
+| [SINTEF/Muscade.jl](https://github.com/SINTEF/Muscade.jl) | [docs: move Diagnostic under User manual](https://github.com/SINTEF/Muscade.jl/pull/112) | 2026-10-02 |
 <!--OSS-END-->
 
 <div align="center">
