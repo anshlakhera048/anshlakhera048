@@ -1,0 +1,48 @@
+name: Update OSS contributions
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch merged PRs from other people's repos
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USER_NAME: ${{ github.repository_owner }}
+        run: |
+          gh search prs --author "$USER_NAME" --merged --limit 100 \
+            --json repository,title,url,closedAt \
+            --jq '[.[] | select(.repository.nameWithOwner | startswith(env.USER_NAME + "/") | not)]
+                  | sort_by(.closedAt) | reverse | .[:10] | .[]
+                  | "| [\(.repository.nameWithOwner)](https://github.com/\(.repository.nameWithOwner)) | [\(.title | gsub("\\|"; "\\|"))](\(.url)) | \(.closedAt[:10]) |"' \
+            > rows.txt
+
+      - name: Update README
+        run: |
+          python3 - <<'EOF'
+          import re
+          rows = open("rows.txt").read().strip() or "| _First merged PRs show up here_ | | |"
+          head = "| Project | Contribution | Merged |\n|---|---|---|\n"
+          s = open("README.md").read()
+          s = re.sub(
+              r"(<!--OSS-START-->).*?(<!--OSS-END-->)",
+              lambda m: m.group(1) + "\n" + head + rows + "\n" + m.group(2),
+              s, flags=re.S,
+          )
+          open("README.md", "w").write(s)
+          EOF
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git diff --quiet || (git add README.md && git commit -m "chore: update OSS contributions" && git push)
