@@ -44,6 +44,7 @@ SDE intern at Tripfactory · B.Tech, Nirma University · **Open to SDE / Backend
 <!--OSS-START-->
 | Project | Contribution | Merged |
 |---|---|---|
+| [JayPokale/Chisle](https://github.com/JayPokale/Chisle) | [feat: add 2026-10-01 rerun benchmark chart](https://github.com/JayPokale/Chisle/pull/34) | 2026-10-03 |
 | [JayPokale/Chisle](https://github.com/JayPokale/Chisle) | [feat: break replay savings down by tool](https://github.com/JayPokale/Chisle/pull/30) | 2026-10-03 |
 | [SINTEF/Muscade.jl](https://github.com/SINTEF/Muscade.jl) | [docs: move Diagnostic under User manual](https://github.com/SINTEF/Muscade.jl/pull/112) | 2026-10-02 |
 <!--OSS-END-->
