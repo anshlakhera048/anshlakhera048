@@ -18,7 +18,7 @@ SDE intern at Tripfactory · B.Tech, Nirma University · **Open to SDE / Backend
 <tr>
 <td align="center"><h3>400K / sec</h3>orders matched<br/>at 3µs p50<br/><sub><a href="https://github.com/anshlakhera048/AxiomX">AxiomX</a></sub></td>
 <td align="center"><h3>1,000+ TPS</h3>payments validated<br/>with k6 load tests<br/><sub><a href="https://github.com/anshlakhera048/Distributed-Payment-Infrastructure">Payments</a></sub></td>
-<td align="center"><h3>Top 3.3%</h3>global rank<br/>LeetCode Biweekly 148<br/><sub><a href="#-competitive-programming">Details</a></sub></td>
+<td align="center"><h3>3★ | 1638</h3>#56 · Starters 251<br/>CodeChef<br/><sub><a href="#-competitive-programming">Details</a></sub></td>
 <td align="center"><h3>35K+ / mo</h3>views teaching<br/>backend and systems<br/><sub><a href="https://instagram.com/swe.ngineer">@swe.ngineer</a></sub></td>
 </tr>
 </table>
