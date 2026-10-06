@@ -8,7 +8,7 @@
 <br/>
 SDE intern at Tripfactory · B.Tech, Nirma University · **Open to SDE / Backend roles**
 
-[![Resume](https://img.shields.io/badge/Resume-A371F7?style=for-the-badge&logo=readme&logoColor=white)](https://drive.google.com/file/d/1GNH9t3hQx3JOtj8MyEyTweaelVulkF2g/view?usp=sharing)
+[![Resume](https://img.shields.io/badge/Resume-A371F7?style=for-the-badge&logo=readme&logoColor=white)](https://drive.google.com/file/d/1sHOIbc7x4L0uW8tgWos_Qcyf5aePHv_G/view?usp=sharing)
 [![Portfolio](https://img.shields.io/badge/Portfolio-161B22?style=for-the-badge&logo=googlechrome&logoColor=white)](https://www.anshlakhera.in)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ansh-lakhera/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anshlakhera048@gmail.com)
