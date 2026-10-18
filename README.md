@@ -44,6 +44,8 @@ SDE intern at Tripfactory · B.Tech, Nirma University · **Open to SDE / Backend
 <!--OSS-START-->
 | Project | Contribution | Merged |
 |---|---|---|
+| [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | [feat: support HTTPS domains and nginx reverse proxy for the web console](https://github.com/zhayujie/CowAgent/pull/3774) | 2026-10-18 |
+| [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | [feat: add DeepSeek Search and Fetch API support](https://github.com/zhayujie/CowAgent/pull/3776) | 2026-10-18 |
 | [JayPokale/Chisle](https://github.com/JayPokale/Chisle) | [feat: report turns in agentic benchmark score](https://github.com/JayPokale/Chisle/pull/35) | 2026-10-04 |
 | [JayPokale/Chisle](https://github.com/JayPokale/Chisle) | [feat: add 2026-10-01 rerun benchmark chart](https://github.com/JayPokale/Chisle/pull/34) | 2026-10-03 |
 | [JayPokale/Chisle](https://github.com/JayPokale/Chisle) | [feat: break replay savings down by tool](https://github.com/JayPokale/Chisle/pull/30) | 2026-10-03 |
