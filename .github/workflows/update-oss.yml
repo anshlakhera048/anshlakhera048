@@ -4,9 +4,16 @@ on:
   schedule:
     - cron: "0 */6 * * *"
   workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/update-oss.yml"
 
 permissions:
   contents: write
+
+concurrency:
+  group: profile-repo-writes
+  cancel-in-progress: false
 
 jobs:
   update:
@@ -14,35 +21,75 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Fetch merged PRs from other people's repos
+      - name: Build contributions table
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USER_NAME: ${{ github.repository_owner }}
         run: |
-          gh search prs --author "$USER_NAME" --merged --limit 100 \
-            --json repository,title,url,closedAt \
-            --jq '[.[] | select(.repository.nameWithOwner | startswith(env.USER_NAME + "/") | not)]
-                  | sort_by(.closedAt) | reverse | .[:10] | .[]
-                  | "| [\(.repository.nameWithOwner)](https://github.com/\(.repository.nameWithOwner)) | [\(.title | gsub("\\|"; "\\|"))](\(.url)) | \(.closedAt[:10]) |"' \
-            > rows.txt
+          python3 - <<'PY'
+          import json, os, re, subprocess
 
-      - name: Update README
-        run: |
-          python3 - <<'EOF'
-          import re
-          rows = open("rows.txt").read().strip() or "| _First merged PRs show up here_ | | |"
-          head = "| Project | Contribution | Merged |\n|---|---|---|\n"
-          s = open("README.md").read()
-          s = re.sub(
+          USER = os.environ["USER_NAME"]
+          LIMIT = 6  # how many of the latest merged PRs to show
+
+
+          def gh(*args):
+              return subprocess.run(["gh", *args], check=True, capture_output=True, text=True).stdout
+
+
+          prs = json.loads(gh("search", "prs", "--author", USER, "--merged", "--limit", "100",
+                              "--json", "repository,title,url,closedAt"))
+          # only PRs into other people's repos
+          prs = [p for p in prs if not p["repository"]["nameWithOwner"].lower().startswith(USER.lower() + "/")]
+          prs.sort(key=lambda p: p["closedAt"], reverse=True)
+          prs = prs[:LIMIT]
+
+          _stars = {}
+
+
+          def stars(repo):
+              if repo not in _stars:
+                  try:
+                      _stars[repo] = int(gh("api", f"repos/{repo}", "--jq", ".stargazers_count").strip())
+                  except Exception as e:
+                      print(f"stars {repo}: {e}")
+                      _stars[repo] = None
+              return _stars[repo]
+
+
+          def fmt(n):
+              if n is None:
+                  return "—"
+              if n >= 1000:
+                  return f"⭐ {n / 1000:.1f}k".replace(".0k", "k")
+              return f"⭐ {n}"
+
+
+          rows = []
+          for p in prs:
+              repo = p["repository"]["nameWithOwner"]
+              title = p["title"].replace("|", "\\|")
+              rows.append(f"| [{repo}](https://github.com/{repo}) | {fmt(stars(repo))} | [{title}]({p['url']}) | {p['closedAt'][:10]} |")
+
+          if not rows:
+              rows = ["| _First merged PRs show up here_ | | | |"]
+
+          table = "| Project | Stars | Contribution | Merged |\n|---|---|---|---|\n" + "\n".join(rows)
+          # keep the README's own line endings (CRLF or LF) so the commit only touches the table
+          text = open("README.md", encoding="utf-8", newline="").read()
+          nl = "\r\n" if "\r\n" in text else "\n"
+          new = re.sub(
               r"(<!--OSS-START-->).*?(<!--OSS-END-->)",
-              lambda m: m.group(1) + "\n" + head + rows + "\n" + m.group(2),
-              s, flags=re.S,
+              lambda m: m.group(1) + nl + table.replace("\n", nl) + nl + m.group(2),
+              text, flags=re.S,
           )
-          open("README.md", "w").write(s)
-          EOF
+          open("README.md", "w", encoding="utf-8", newline="").write(new)
+          print(table)
+          PY
 
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git diff --quiet || (git add README.md && git commit -m "chore: update OSS contributions" && git push)
+          git add README.md
+          git diff --staged --quiet || (git commit -m "chore: update OSS contributions" && git pull --rebase && git push)
