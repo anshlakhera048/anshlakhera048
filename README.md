@@ -4,11 +4,11 @@
 
 <div align="center">
 
-**I build correctness-critical backend systems: exchange engines, event-driven payments and real-time streaming pipelines.**
+**I build correctness-critical backend systems: exchange engines, event-driven payments and real-time streaming pipelines, plus RAG and MCP-based AI agents.**
 <br/>
-SDE intern at Tripfactory · B.Tech, Nirma University · **Open to SDE / Backend roles**
+SDE Intern at Tripfactory (Jan–Jun 2026) · B.Tech, Nirma University (2026) · **Open to SDE / Backend roles**
 
-[![Resume](https://img.shields.io/badge/Resume-A371F7?style=for-the-badge&logo=readme&logoColor=white)](https://drive.google.com/file/d/1RjS4AjH602rZ-JCf43un53uOUseoemdn/view)
+[![Resume](https://img.shields.io/badge/Resume-A371F7?style=for-the-badge&logo=readme&logoColor=white)](https://drive.google.com/file/d/1X6a3GrW0msuaGeXWnRzJYGP63gS4Ipae/view)
 [![Portfolio](https://img.shields.io/badge/Portfolio-161B22?style=for-the-badge&logo=googlechrome&logoColor=white)](https://www.anshlakhera.in)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ansh-lakhera/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anshlakhera048@gmail.com)
@@ -39,18 +39,23 @@ SDE intern at Tripfactory · B.Tech, Nirma University · **Open to SDE / Backend
 
 </div>
 
-> Contributing upstream to projects I use and learn from. This table highlights my latest 4 merged PRs, with repository star counts.
+> Contributing upstream to projects I use and learn from. This table shows my latest merged PRs with each repository's star count, and updates automatically.
 
 <!--OSS-START-->
-| Project | Contribution | Merged |
-|---|---|---|
-| [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | [feat: support HTTPS domains and nginx reverse proxy for the web console](https://github.com/zhayujie/CowAgent/pull/3774) | 2026-10-18 |
-| [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | [feat: add DeepSeek Search and Fetch API support](https://github.com/zhayujie/CowAgent/pull/3776) | 2026-10-18 |
-| [JayPokale/Chisle](https://github.com/JayPokale/Chisle) | [feat: report turns in agentic benchmark score](https://github.com/JayPokale/Chisle/pull/35) | 2026-10-04 |
-| [JayPokale/Chisle](https://github.com/JayPokale/Chisle) | [feat: add 2026-10-01 rerun benchmark chart](https://github.com/JayPokale/Chisle/pull/34) | 2026-10-03 |
-| [JayPokale/Chisle](https://github.com/JayPokale/Chisle) | [feat: break replay savings down by tool](https://github.com/JayPokale/Chisle/pull/30) | 2026-10-03 |
-| [SINTEF/Muscade.jl](https://github.com/SINTEF/Muscade.jl) | [docs: move Diagnostic under User manual](https://github.com/SINTEF/Muscade.jl/pull/112) | 2026-10-02 |
+| Project | Stars | Contribution | Merged |
+|---|---|---|---|
+| [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | ⭐ 48k+ | [feat: support HTTPS domains and nginx reverse proxy for the web console](https://github.com/zhayujie/CowAgent/pull/3774) | 2026-10-18 |
+| [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | ⭐ 48k+ | [feat: add DeepSeek Search and Fetch API support](https://github.com/zhayujie/CowAgent/pull/3776) | 2026-10-18 |
+| [JayPokale/Chisle](https://github.com/JayPokale/Chisle) | ⭐ 1.1k+ | [feat: report turns in agentic benchmark score](https://github.com/JayPokale/Chisle/pull/35) | 2026-10-04 |
+| [JayPokale/Chisle](https://github.com/JayPokale/Chisle) | ⭐ 1.1k+ | [feat: add 2026-10-01 rerun benchmark chart](https://github.com/JayPokale/Chisle/pull/34) | 2026-10-03 |
+| [JayPokale/Chisle](https://github.com/JayPokale/Chisle) | ⭐ 1.1k+ | [feat: break replay savings down by tool](https://github.com/JayPokale/Chisle/pull/30) | 2026-10-03 |
+| [SINTEF/Muscade.jl](https://github.com/SINTEF/Muscade.jl) | — | [docs: move Diagnostic under User manual](https://github.com/SINTEF/Muscade.jl/pull/112) | 2026-10-02 |
 <!--OSS-END-->
+
+**What I shipped**
+- **CowAgent:** DeepSeek Search and Fetch API support with 21 tests ([#3776](https://github.com/zhayujie/CowAgent/pull/3776)); HTTPS for the web console via direct TLS with fail-fast certificate validation ([#3774](https://github.com/zhayujie/CowAgent/pull/3774)).
+- **Chisle:** per-tool token savings breakdown for the replay benchmark ([#30](https://github.com/JayPokale/Chisle/pull/30)); rerun benchmark chart and a turns/run metric, fixing baseline bias with same-task pairing ([#34](https://github.com/JayPokale/Chisle/pull/34), [#35](https://github.com/JayPokale/Chisle/pull/35)).
+- **Muscade.jl** (SINTEF's Julia FEM optimization library): moved the Diagnostic docs under the User manual ([#112](https://github.com/SINTEF/Muscade.jl/pull/112)).
 
 <div align="center">
 
@@ -81,8 +86,7 @@ SDE intern at Tripfactory · B.Tech, Nirma University · **Open to SDE / Backend
 - **Zero-allocation hot path:** object pooling and primitive collections keep GC off the matching loop.
 - **Event sourcing:** every state change is logged, so a crash recovers to the exact same state.
 
-<details>
-<summary><b>Architecture</b></summary>
+**Architecture**
 
 ```mermaid
 flowchart LR
@@ -94,8 +98,6 @@ flowchart LR
     M --> W["Market data over WebSocket"]
   end
 ```
-
-</details>
 
 <br/>
 
@@ -118,8 +120,7 @@ flowchart LR
 - **Effectively-once processing:** idempotent API plus a `processed_events` table make Kafka redeliveries harmless.
 - **Two-stage fraud detection:** rules first, then an IsolationForest model with versioning, behind a circuit breaker that fails open.
 
-<details>
-<summary><b>Payment flow</b></summary>
+**Payment flow**
 
 ```mermaid
 sequenceDiagram
@@ -136,8 +137,6 @@ sequenceDiagram
   F->>K: fraud.result from rules and ML model
   K->>P: Finalize as SUCCESS with ledger entries, or FRAUD_REJECTED
 ```
-
-</details>
 
 <br/>
 
@@ -160,8 +159,7 @@ sequenceDiagram
 - **Schema discipline:** Avro with Schema Registry, idempotent producers and a DLQ, so bad data is isolated rather than dropped.
 - **Verifiable by design:** the repo includes chaos tests for Kafka, Redis and Flink failures, plus consistency and data-quality checkers.
 
-<details>
-<summary><b>Architecture</b></summary>
+**Architecture**
 
 ```mermaid
 flowchart LR
@@ -174,8 +172,6 @@ flowchart LR
   RD -. "drift check" .- CH
 ```
 
-</details>
-
 ---
 
 ## 💼 Experience
@@ -183,8 +179,10 @@ flowchart LR
 **Tripfactory** · SDE Intern · Bengaluru · *Jan 2026 - Jun 2026*
 - Integrated BPoint REST v5 into B2B booking infrastructure, owning the auth-to-settlement lifecycle across a multi-gateway architecture.
 - Built an **idempotent FSM refund engine** with excess-refund prevention and precision-safe arithmetic under concurrency.
+- Developed a **RAG-based visa assistant** (LLMs and vector search) that grounds advisor responses in policy documents, and **MCP-integrated AI agents** that expose Playwright tools with controlled execution and validation.
+- Built a global hotel crawler (Playwright + Hibernate) with BFS traversal and upsert-safe DB persistence, and automated advisor flows with Playwright (Java, Page Object Model).
 - Audited the **CDC pipeline** (Postgres, Debezium, Kafka, ClickHouse) and designed a star-schema warehouse with MergeTree materialized views.
-- Built a config-driven **Visa Rule Engine** in Java and a BI dashboard (JS + Chart.js) used across 36+ offices with role-based access.
+- Built a config-driven **Visa Rule Engine** (Java, Jackson, immutable DTOs, stream-based evaluation over JSON policies) and a BI dashboard (JS + Chart.js) used across 36+ offices with role-based access.
 
 **Bluestock Fintech** · SDE Intern · Remote · *May 2025 - Jun 2025*
 - Built a real-time IPO market dashboard (React, Node, Tailwind) with a modular, WebSocket-ready architecture.
@@ -198,14 +196,15 @@ flowchart LR
 | Layer | Stack |
 |---|---|
 | **Languages** | Java · C++ · Python · JavaScript · SQL |
-| **Backend** | Spring Boot · REST · Microservices · Resilience4j |
+| **Backend** | Spring Boot · Hibernate · REST · Microservices · Resilience4j |
 | **Streaming and data** | Kafka · Flink · Avro · Schema Registry · Debezium (CDC) |
 | **Low-latency** | LMAX Disruptor · Agrona · fastutil · HdrHistogram |
-| **Storage** | PostgreSQL · ClickHouse · Redis |
+| **Storage** | PostgreSQL · ClickHouse · Redis · Vector databases |
+| **AI engineering** | RAG · LLMs · MCP · AI agents · Vector search · Prompt engineering |
 | **Patterns** | Outbox · Saga · Idempotency · Event sourcing · Double-entry ledger |
-| **Infra and observability** | Docker · Kubernetes · Prometheus · Grafana · Linux · k6 |
+| **Infra and observability** | Docker · Kubernetes · GitHub Actions · Prometheus · Grafana · Linux · k6 |
 
-<sub>Also: React · Node.js · Tailwind · JUnit · Mockito</sub>
+<sub>Also: React · Node.js · Tailwind · JUnit · Mockito · Playwright</sub>
 
 </div>
 
