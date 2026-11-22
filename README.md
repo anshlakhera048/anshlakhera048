@@ -44,12 +44,12 @@ SDE Intern at Tripfactory (Jan–Jun 2026) · B.Tech, Nirma University (2026) ·
 <!--OSS-START-->
 | Project | Stars | Contribution | Merged |
 |---|---|---|---|
-| [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | ⭐ 48k+ | [feat: support HTTPS domains and nginx reverse proxy for the web console](https://github.com/zhayujie/CowAgent/pull/3774) | 2026-10-18 |
-| [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | ⭐ 48k+ | [feat: add DeepSeek Search and Fetch API support](https://github.com/zhayujie/CowAgent/pull/3776) | 2026-10-18 |
-| [JayPokale/Chisle](https://github.com/JayPokale/Chisle) | ⭐ 1.1k+ | [feat: report turns in agentic benchmark score](https://github.com/JayPokale/Chisle/pull/35) | 2026-10-04 |
-| [JayPokale/Chisle](https://github.com/JayPokale/Chisle) | ⭐ 1.1k+ | [feat: add 2026-10-01 rerun benchmark chart](https://github.com/JayPokale/Chisle/pull/34) | 2026-10-03 |
-| [JayPokale/Chisle](https://github.com/JayPokale/Chisle) | ⭐ 1.1k+ | [feat: break replay savings down by tool](https://github.com/JayPokale/Chisle/pull/30) | 2026-10-03 |
-| [SINTEF/Muscade.jl](https://github.com/SINTEF/Muscade.jl) | — | [docs: move Diagnostic under User manual](https://github.com/SINTEF/Muscade.jl/pull/112) | 2026-10-02 |
+| [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | ⭐ 48k | [feat: support HTTPS domains and nginx reverse proxy for the web console](https://github.com/zhayujie/CowAgent/pull/3774) | 2026-10-18 |
+| [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | ⭐ 48k | [feat: add DeepSeek Search and Fetch API support](https://github.com/zhayujie/CowAgent/pull/3776) | 2026-10-18 |
+| [JayPokale/Chisle](https://github.com/JayPokale/Chisle) | ⭐ 1.2k | [feat: report turns in agentic benchmark score](https://github.com/JayPokale/Chisle/pull/35) | 2026-10-04 |
+| [JayPokale/Chisle](https://github.com/JayPokale/Chisle) | ⭐ 1.2k | [feat: add 2026-10-01 rerun benchmark chart](https://github.com/JayPokale/Chisle/pull/34) | 2026-10-03 |
+| [JayPokale/Chisle](https://github.com/JayPokale/Chisle) | ⭐ 1.2k | [feat: break replay savings down by tool](https://github.com/JayPokale/Chisle/pull/30) | 2026-10-03 |
+| [SINTEF/Muscade.jl](https://github.com/SINTEF/Muscade.jl) | ⭐ 13 | [docs: move Diagnostic under User manual](https://github.com/SINTEF/Muscade.jl/pull/112) | 2026-10-02 |
 <!--OSS-END-->
 
 **What I shipped**
