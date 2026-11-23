@@ -44,8 +44,8 @@ SDE Intern at Tripfactory (Jan–Jun 2026) · B.Tech, Nirma University (2026) ·
 <!--OSS-START-->
 | Project | Stars | Contribution | Merged |
 |---|---|---|---|
-| [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | ⭐ 48k | [feat: support HTTPS domains and nginx reverse proxy for the web console](https://github.com/zhayujie/CowAgent/pull/3774) | 2026-10-18 |
-| [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | ⭐ 48k | [feat: add DeepSeek Search and Fetch API support](https://github.com/zhayujie/CowAgent/pull/3776) | 2026-10-18 |
+| [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | ⭐ 48.1k | [feat: support HTTPS domains and nginx reverse proxy for the web console](https://github.com/zhayujie/CowAgent/pull/3774) | 2026-10-18 |
+| [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | ⭐ 48.1k | [feat: add DeepSeek Search and Fetch API support](https://github.com/zhayujie/CowAgent/pull/3776) | 2026-10-18 |
 | [JayPokale/Chisle](https://github.com/JayPokale/Chisle) | ⭐ 1.3k | [feat: report turns in agentic benchmark score](https://github.com/JayPokale/Chisle/pull/35) | 2026-10-04 |
 | [JayPokale/Chisle](https://github.com/JayPokale/Chisle) | ⭐ 1.3k | [feat: add 2026-10-01 rerun benchmark chart](https://github.com/JayPokale/Chisle/pull/34) | 2026-10-03 |
 | [JayPokale/Chisle](https://github.com/JayPokale/Chisle) | ⭐ 1.3k | [feat: break replay savings down by tool](https://github.com/JayPokale/Chisle/pull/30) | 2026-10-03 |
